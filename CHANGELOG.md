@@ -5,21 +5,6 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 
 ## [Unreleased]
 
-## [1.2.0] - 2017-02-08
-### Added
-- check-container.rb: add an option to test image's tag (@obazoud)
-
-## [1.1.5] - 2016-11-26
-### Changed
-- Loosen `sensu-plugin` dependency to `~> 1.2` (#44)
-
-## [1.1.4] - 2016-11-26
-### Changed
-- metrics-docker-stats.rb: Fix JSON parse error if there is more than one chunk
-  of response data needed to result in valid JSON because of large datasets.
-  (#18)
-
-## [1.1.3] - 2016-08-11
 ### Changed
 - dependencies: use net\_http\_unix = 0.2.2
 
@@ -76,10 +61,7 @@ changes some options. Review your check commands before deploying this version.
 ### Added
 - initial release
 
-[Unreleased]: https://github.com/sensu-plugins/sensu-plugins-docker/compare/1.2.0...HEAD
-[1.2.0]: https://github.com/sensu-plugins/sensu-plugins-docker/compare/1.1.5...1.2.0
-[1.1.5]: https://github.com/sensu-plugins/sensu-plugins-docker/compare/1.1.4...1.1.5
-[1.1.4]: https://github.com/sensu-plugins/sensu-plugins-docker/compare/1.1.3...1.1.4
+[Unreleased]: https://github.com/sensu-plugins/sensu-plugins-docker/compare/1.1.3...HEAD
 [1.1.3]: https://github.com/sensu-plugins/sensu-plugins-docker/compare/1.1.2...1.1.3
 [1.1.2]: https://github.com/sensu-plugins/sensu-plugins-docker/compare/1.1.1...1.1.2
 [1.1.1]: https://github.com/sensu-plugins/sensu-plugins-docker/compare/1.1.0...1.1.1
