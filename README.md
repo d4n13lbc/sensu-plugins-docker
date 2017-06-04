@@ -7,6 +7,8 @@
 [![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-docker.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-docker)
 
 ## Functionality
+This check supports docker versions >= 1.18. Check docker-engine API for more information  
+https://docs.docker.com/engine/api/v1.29/#section/Versioning
 
 ## Files
  * check-container.rb
